@@ -23,7 +23,7 @@ IF DEF(_BLUE)
 ENDC
 	end_grass_wildmons
 
-	def_water_wildmons 0 ; encounter rate
+	def_water_wildmons 15 ; encounter rate
     db 18, GRIMER
 	db 20, SLOWPOKE
 	db 20, GRIMER
