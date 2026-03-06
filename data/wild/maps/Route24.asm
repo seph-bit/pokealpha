@@ -23,5 +23,15 @@ ENDC
 	db 12, ABRA
 	end_grass_wildmons
 
-	def_water_wildmons 0 ; encounter rate
+	def_water_wildmons 25 ; encounter rate
+    db 10, TENTACOOL
+	db 16, GOLDEEN
+	db 16, KRABBY
+	db 12, TENTACOOL
+	db 15, TENTACOOL
+	db 18, TENTACOOL
+	db 18, KINGLER
+	db 20, KINGLER
+	db 18, SEAKING
+	db 20, SEAKING
 	end_water_wildmons
