@@ -26,7 +26,7 @@ IF DEF(_BLUE)
 ENDC
 	end_grass_wildmons
 
-	def_water_wildmons 0 ; encounter rate
+	def_water_wildmons 15 ; encounter rate
     db 25, TENTACOOL
 	db 23, HORSEA
 	db 25, KRABBY
