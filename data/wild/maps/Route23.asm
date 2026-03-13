@@ -22,15 +22,5 @@ ENDC
 	db 43, FEAROW
 	end_grass_wildmons
 
-	def_water_wildmons 10 ; encounter rate
-    db 35, TENTACOOL
-	db 35, DRATINI
-	db 43, GYARADOS
-	db 40, DRATINI
-	db 40, TENTACOOL
-	db 45, TENTACRUEL
-	db 46, GYARDOS
-	db 45, DRAGONAIR
-	db 48, DRAGONAIR
-	db 50, DRAGONITE
+	def_water_wildmons 0 ; encounter rate
 	end_water_wildmons
