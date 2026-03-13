@@ -26,15 +26,5 @@ IF DEF(_BLUE)
 ENDC
 	end_grass_wildmons
 
-	def_water_wildmons 15 ; encounter rate
-    db 15, TENTACOOL
-	db 18, PSYDUCK
-	db 18, SLOWPOKE
-	db 18, TENTACOOL
-	db 20, TENTACOOL
-	db 21, PSYDUCK
-	db 20, GOLDUCK
-	db 20, SLOWBRO
-	db 22, GOLDUCK
-	db 23, SLOWBRO
+	def_water_wildmons 0 ; encounter rate
 	end_water_wildmons
