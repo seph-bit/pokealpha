@@ -26,15 +26,5 @@ IF DEF(_BLUE)
 ENDC
 	end_grass_wildmons
 
-	def_water_wildmons 15 ; encounter rate
-    db 25, TENTACOOL
-	db 23, HORSEA
-	db 25, KRABBY
-	db 26, TENTACOOL
-	db 26, TENTACRUEL
-	db 28, TENTACOOL
-	db 25, KINGLER
-	db 28, KINGLER
-	db 27, SEADRA
-	db 30, SEADRA
+	def_water_wildmons 0 ; encounter rate
 	end_water_wildmons
